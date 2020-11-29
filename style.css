@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  background-color: #e9c46a;
+}
+
+#options {
+  text-align: center;
+  padding-top: 20px;
+  margin: 25px;
+}
+
+#options button {
+  margin: 0px 25px 0px 25px;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  text-shadow: gray;
+}
+
+table,
+th,
+td {
+  background-color: white;
+  border: 1px solid black;
+  table-layout: fixed;
+}
+
+th,
+td {
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+}
+
+.sketchsection {
+  display: flex;
+  justify-content: center;
+}
+#tablecanvas {
+  height: 500px;
+  width: 500px;
+  margin-top: 40px;
+}
+
+button {
+  background-color: #f4a261;
+  padding: 10px;
+  color: #264653;
+}
